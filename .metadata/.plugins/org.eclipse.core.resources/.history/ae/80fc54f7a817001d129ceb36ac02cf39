@@ -1,0 +1,21 @@
+package com.nit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.nit.entity.Institute;
+import com.nit.repo.InstituteRepo;
+
+@Service
+public class InstituteService {
+	
+	@Autowired
+private InstituteRepo repo;
+	
+	//add method
+	public Institute add(Institute ins)
+	{
+		return ins.
+	}
+
+}

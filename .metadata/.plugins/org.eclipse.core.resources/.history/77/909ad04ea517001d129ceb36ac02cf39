@@ -1,0 +1,8 @@
+package com.nit;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class InstituteService {
+
+}

@@ -1,0 +1,9 @@
+package com.nit;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.nit.entity.Institute;
+
+public interface InstituteRepo extends JpaRepository<Institute, String> {
+
+}

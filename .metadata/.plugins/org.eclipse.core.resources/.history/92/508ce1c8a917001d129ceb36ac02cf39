@@ -1,0 +1,7 @@
+package com.nit.controller;
+
+
+@RestController
+public class InstituteController {
+
+}

@@ -1,0 +1,19 @@
+package com.nit.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import java.util.*;
+import org.springframework.stereotype.Repository;
+
+import com.nit.entity.Institute;
+
+
+@Repository
+public interface InstituteRepo extends JpaRepository<Institute, String> {
+	
+	@Query(value="update Institue set uname=?0 where name=?1",nativeQuery = true)
+	 List<Institute> findByName(String name,String address);
+	
+
+}
